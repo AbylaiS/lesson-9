@@ -28,13 +28,6 @@ public class Temperature {
         c = 0;
         f = 0;
     }
-    public static double getReturndegreesF() {
-     return getReturndegreesF();
-    }
-
-    public static double getReturndegreesC(){
-        return getReturndegreesC();
-    }
     public double getC() {
         return (5 * f - 32) / 9;
     }
