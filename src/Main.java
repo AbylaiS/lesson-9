@@ -7,7 +7,7 @@ public class Main {
         System.out.println(name);
         String id = myStudent.getId();
         System.out.println(id);
-        String years = myStudent.getYears();
+        int years = myStudent.getYears();
         System.out.println(years);
 
         StarTriangle small = new StarTriangle();

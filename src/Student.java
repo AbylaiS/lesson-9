@@ -1,12 +1,12 @@
 public class Student {
     private String name;
     private String id;
-    private String years;
+    private int years;
 
     public Student() {
         name = "Алиса";
         id = "24";
-        years = "2020";
+        years = Integer.parseInt("2020");
     }
     public String getName() {
         return name;
@@ -15,19 +15,18 @@ public class Student {
         return id;
     }
 
-    public String getYears() {
+    public int getYears() {
         return years;
     }
 
-    public void SetName(String newName) {
+    public void setName(String newName) {
         this.name = newName;
     }
 
     public void setId(String newId) {
         this.id = id;
     }
-
-    public void SetYears(String newYears) {
-        this.years = years + 1;
+    public void incrementYears(){
+        this.years++;
     }
 }
